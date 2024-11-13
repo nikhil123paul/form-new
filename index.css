@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(212, 203, 203);
+}
+
+.div {
+  height: 500px;
+  width: 500px;
+  background-color: blueviolet;
+  background-image: linear-gradient(rgb(116, 116, 240), blueviolet);
+  align-items: center;
+  border: 5px solid blueviolet;
+  border-radius: 10px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.header {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+li label {
+  font-weight: bold;
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  background-color: rgb(189, 186, 186);
+}
